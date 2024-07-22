@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="479.0" prefWidth="746.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.Ijse.Controller.RegisterationController">
+   <children>
+      <ImageView fx:id="rootnode" fitHeight="479.0" fitWidth="746.0">
+         <image>
+            <Image url="@../Assets/istockphoto-1137171172-612x612.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="283.0" layoutY="22.0" prefHeight="43.0" prefWidth="296.0" text="Registeration" textFill="#53e116">
+         <font>
+            <Font name="Constantia" size="37.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="128.0" prefHeight="43.0" prefWidth="126.0" text="Username" textFill="#53e116">
+         <font>
+            <Font name="Cambria Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="88.0" layoutY="176.0" prefHeight="43.0" prefWidth="126.0" text="Password" textFill="#53e116">
+         <font>
+            <Font name="Cambria Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="115.0" layoutY="223.0" prefHeight="43.0" prefWidth="99.0" text="Email" textFill="#53e116">
+         <font>
+            <Font name="Cambria Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="R_textUsername" layoutX="235.0" layoutY="137.0" prefHeight="25.0" prefWidth="281.0" />
+      <TextField fx:id="R_textPassword" layoutX="237.0" layoutY="185.0" prefHeight="25.0" prefWidth="281.0" />
+      <TextField fx:id="R_textEmail" layoutX="235.0" layoutY="232.0" prefHeight="25.0" prefWidth="281.0" />
+      <Button layoutX="509.0" layoutY="372.0" mnemonicParsing="false" onAction="#RegisterBtn" prefHeight="25.0" prefWidth="137.0" text="Register">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="DateText" layoutX="233.0" layoutY="277.0" prefHeight="25.0" prefWidth="281.0" />
+      <Label layoutX="62.0" layoutY="268.0" prefHeight="43.0" prefWidth="152.0" text="Date of Birth" textFill="#53e116">
+         <font>
+            <Font name="Cambria Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="167.0" layoutY="308.0" prefHeight="43.0" prefWidth="55.0" text="NIC" textFill="#53e116">
+         <font>
+            <Font name="Cambria Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="R_textNic" layoutX="235.0" layoutY="317.0" prefHeight="25.0" prefWidth="281.0" />
+   </children>
+</AnchorPane>
